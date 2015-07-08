@@ -32,7 +32,7 @@ the Heroku toolbelt already):
 
     cd hammock
     heroku create
-    heroku config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php.git#redis
+    heroku config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php.git
     heroku config:set HAMMOCK_ROOT=http://{URL-TO-APP}/
     heroku config:set HAMMOCK_CLIENT_ID={YOUR-CLIENT-ID}
     heroku config:set HAMMOCK_CLIENT_SECRET={YOUR-CLIENT-SECRET}
